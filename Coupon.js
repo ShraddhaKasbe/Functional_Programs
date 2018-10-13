@@ -13,8 +13,8 @@
     input:process.stdin,     //input stream
     output:process.stdout    //output stream                               
 });
-/*
- *  @param accept number from user and generate distinct coupon number using random()
+/**
+ * @param accept number from user and generate distinct coupon number using random()
 */
 var code='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';// to generate combination of alphabets and numbers
 var couponcode=code.split('');//split method used to convert the code string into array
